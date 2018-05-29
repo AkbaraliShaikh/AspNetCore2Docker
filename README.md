@@ -1,5 +1,7 @@
 # Hosting ASP.NET Core 2.0 on Linux Container using Docker-for-Windows
-Simple Asp.Net Core 2.0 Docker App 
+Create your First Asp.Net Core 2.0 Docker App 
+
+Docker containers are lightweight by design and ideal for enabling microservices application development.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on linux container uisng docker for windows.
