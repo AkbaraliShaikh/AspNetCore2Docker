@@ -38,7 +38,7 @@ These instructions will get you a copy of the project up and running on linux co
  
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/6_dockeryml.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/6_dockeryml.png" alt="text" width=100%  height=300px></a>
  
-  #### 5. (Optional) Create Home Controller and add the below code, and create the class Info to return the response
+  #### 5. Create Home Controller and add the below code, and create the class Info to return the response or return anything.
   
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/7_ActionResult.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/7_ActionResult.png" alt="text" width=100%  height=300px></a>
     
