@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  aspnetcore2docker:
+    image: aspnetcore2docker
+    ports:
+      - "8080:80"
+    build:
+      context: .
+      dockerfile: AspNetCore2Docker/Dockerfile
+
