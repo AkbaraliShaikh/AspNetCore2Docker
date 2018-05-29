@@ -1,4 +1,4 @@
-# Hosting ASP.NET Core 2.0 on Linux using Docker-for-Windows
+# Hosting ASP.NET Core 2.0 on Linux Container using Docker-for-Windows
 Simple Asp.Net Core 2.0 Docker App 
 
 ## Getting Started
