@@ -43,7 +43,7 @@ These instructions will get you a copy of the project up and running on linux co
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/7_ActionResult.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/7_ActionResult.png" alt="text" width=100%  height=300px></a>
     
    #### 6. Open windows/powershell command prompt, and set the current directory to your project directory
-       - Run the command doker-compose -f .\docker-compose.ci.build.yml -p netcorebuild run ci-build
+       - Run the command > doker-compose -f .\docker-compose.ci.build.yml -p netcorebuild run ci-build
        
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/8_Docker_Build.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/8_Docker_Build.png" alt="text" width=100%  height=300px></a>
    
@@ -55,28 +55,28 @@ These instructions will get you a copy of the project up and running on linux co
     
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/9_DockerShareDrive.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/9_DockerShareDrive.png" alt="text" width=75%  height=400px></a>
   
-   ### 8. Run the command again doker-compose -f .\docker-compose.ci.build.yml -p netcorebuild run ci-build
+   #### 8. Run the command again > doker-compose -f .\docker-compose.ci.build.yml -p netcorebuild run ci-build
    
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/10_DockerBuilkd_Again.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/10_DockerBuilkd_Again.png" alt="text" width=90%  height=200px></a>
   
   ### 9. Run the below command to create the Docker Image
-  -  docker-compose -f .\docker-compose.yml -p aspnetcore2docker build
+  -  > docker-compose -f .\docker-compose.yml -p aspnetcore2docker build
   
   <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/12_Docker_Yml_Build.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/12_Docker_Yml_Build.png" alt="text" width=90%  height=200px></a>
   
   ### 10. Run below command to see the Docker images 
-  - docker images
+  - > docker images
 
  <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/13_Docker_Images.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/13_Docker_Images.png" alt="text" width=90%  height=200px></a>
   
   ### 11. Run the below command to run the App into the Docker Container
   
-  - docker-compose -f .\docker-compose.yml -p aspnetcore2docker up -d
+  - > docker-compose -f .\docker-compose.yml -p aspnetcore2docker up -d
   
    <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/14_Docker_Run.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/14_Docker_Run.png" alt="text" width=90%  height=200px></a>
   
 ### 12. Run the below command to see the conatiner up and running on port 8080:80 
-- docker ps
+- > docker ps
 
 <a target="_blank" href="https://github.com/AkbaraliShaikh/AspNetCore2Docker/blob/master/img/13_Docker_Images.png" class="rich-diff-level-one"><img src="https://github.com/AkbaraliShaikh/AspNetCore2Docker/raw/master/img/13_Docker_Images.png" alt="text" width=90%  height=200px></a>
  
