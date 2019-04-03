@@ -3,7 +3,6 @@ set -e
 
 GVERSION="1.12"
 GFILE="go$GVERSION.linux-amd64.tar.gz"
-
 GOPATH="$HOME/go"
 GOROOT="/usr/local/go"
 if [ -d $GOROOT ]; then
