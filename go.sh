@@ -1,12 +1,13 @@
 #!/bin/bash
 set -e
 
-GVERSION="1.12"
+GVERSION="1.12.1"
 GFILE="go$GVERSION.linux-amd64.tar.gz"
+
 GOPATH="$HOME/go"
 GOROOT="/usr/local/go"
 if [ -d $GOROOT ]; then
-    echo "Installation directories already exist $GOROOT"
+    echo "Installation directory already exists $GOROOT"
     exit 1
 fi
 
